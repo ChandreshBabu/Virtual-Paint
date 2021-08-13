@@ -8,6 +8,8 @@ Here colour detection and tracking is used to achieve the objective. This projec
 
 # Algorithm
 
-1.Start reading the frames and convert the captured frames to HSV colour space.									
+1.Start reading the frames and convert the captured frames to HSV colour space.	
+
 2.Detect the contours, find the center coordinates of largest contour and keep storing them in the array for successive frames.
+
 3.Finally draw the points stored in array on the frames and canvas.
